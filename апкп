@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колледж Кунимена</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .info {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #004d99;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в Колледж Кунимена</h1>
+        <p>Учеба для всех возрастов — от 5 до 60 лет!</p>
+    </header>
+    <main>
+        <section class="info">
+            <h2>О колледже</h2>
+            <p>Колледж Кунимена — это уникальное учебное заведение, которое открыто для всех желающих. Наша цель — обеспечить качественное образование независимо от возраста!</p>
+        </section>
+        <section class="info">
+            <h2>Как поступить?</h2>
+            <ul>
+                <li><strong>Возраст:</strong> От 5 до 60 лет</li>
+                <li><strong>Документы:</strong> Паспорт, заявление, аттестат (если имеется).</li>
+                <li><strong>Процедура:</strong> Заполните заявку на нашем сайте или посетите нас лично.</li>
+            </ul>
+        </section>
+        <section class="info">
+            <h2>Наши программы</h2>
+            <p>Выберите обучение по интересам: от базового школьного уровня до специализированных курсов для взрослых.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Контакты: +7 123 456 78 90 | <a href="mailto:info@kunimena.edu">info@kunimena.edu</a></p>
+        <p>Колледж Кунимена © 2024</p>
+    </footer>
+</body>
+</html>
